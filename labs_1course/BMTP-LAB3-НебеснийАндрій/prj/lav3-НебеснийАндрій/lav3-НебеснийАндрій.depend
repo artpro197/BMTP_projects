@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1603382956 source:d:\bmtp-lab3-НебеснийАндрій\prj\lav3-НебеснийАндрій\main.c
+	<stdio.h>
+	<locale.h>
+

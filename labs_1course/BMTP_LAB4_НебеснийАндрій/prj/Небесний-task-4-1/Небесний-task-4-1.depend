@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1604677325 source:d:\bmtp_lab4_НебеснийАндрій\prj\Небесний-task-4-1\main.c
+	<stdio.h>
+	<stdlib.h>
+	<locale.h>
+
