@@ -4,6 +4,8 @@
 int main()
 {
     short int score;
+    char ch;
+    do{
     printf("Enter the score of the student: ");
     scanf("%d", &score);
     if(score > 0 && score < 101){
@@ -30,8 +32,10 @@ int main()
             }
     }
     else{
-        printf("You made a mistake. The score must be higher then 0\nand less then 101\n");
+        printf("You made a mistake. The score must be higher then 0\nand less then 101.\n");
     }
-    getch();
+    printf("Enter Y to do the operation one more time. Otherwise N.\n");
+    ch = getch();
+    }while(ch == 'Y' || ch == 'y');
     return 0;
 }
