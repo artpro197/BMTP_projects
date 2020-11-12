@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1605189608 source:d:\git\Нова папка\bmtp_projects\labs_1course\bmtp-lab5-Небесний\prj\Небесний-task-5-1\main.c
+	<stdio.h>
+	<stdlib.h>
+
