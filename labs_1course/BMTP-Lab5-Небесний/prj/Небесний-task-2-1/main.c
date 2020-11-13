@@ -20,12 +20,9 @@ int main()
     float Result_2=0;
     if(a != b && b != c && c != d){
         printf("Result_1 = %0.1f\n", a + b + c + d);
-        if(a + b == b + c){
-            printf("Result_2 = %0.1f", a * b * c * d);
-        }
-        else{
-            printf("Небесний Андрiй");
-        }
+    }
+    if(a + b == b + c){
+        printf("Result_2 = %0.1f", a * b * c * d);
     }
     else{
         printf("Небесний Андрiй");
