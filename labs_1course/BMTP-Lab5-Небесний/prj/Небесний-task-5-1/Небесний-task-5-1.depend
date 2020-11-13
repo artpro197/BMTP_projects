@@ -3,7 +3,8 @@
 	<stdio.h>
 	<stdlib.h>
 
-1605201461 source:e:\codeblocks_projects\git\bmtp_projects\labs_1course\bmtp-lab5-Небесний\prj\Небесний-task-5-1\main.c
+1605263387 source:e:\codeblocks_projects\git\bmtp_projects\labs_1course\bmtp-lab5-Небесний\prj\Небесний-task-5-1\main.c
 	<stdio.h>
 	<stdlib.h>
+	<locale.h>
 

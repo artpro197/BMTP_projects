@@ -5,24 +5,23 @@
 int main()
 {
     char *locale=setlocale(LC_ALL, "");
-    float a = 0;
-    float b = 0;
-    float c = 0;
-    float d = 0;
+    int a;
+    int b;
+    int c;
+    int d;
     printf("¬ведiть число а: ");
-    scanf("%f", &a);
+    scanf("%d", &a);
     printf("¬ведiть число b: ");
-    scanf("%f", &b);
+    scanf("%d", &b);
     printf("¬ведiть число c: ");
-    scanf("%f", &c);
+    scanf("%d", &c);
     printf("¬ведiть число d: ");
-    scanf("%f", &d);
-    float Result_2=0;
+    scanf("%d", &d);
     if(a != b && b != c && c != d){
-        printf("Result_1 = %0.1f\n", a + b + c + d);
+        printf("Result_1 = %d\n", a + b + c + d);
     }
     if(a + b == b + c){
-        printf("Result_2 = %0.1f", a * b * c * d);
+        printf("Result_2 = %d", a * b * c * d);
     }
     else{
         printf("Ќебесний јндрiй");
